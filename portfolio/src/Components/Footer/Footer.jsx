@@ -1,7 +1,7 @@
 import SocialIcon1 from "../../Assets/socialIcon1.png"
 import SocialIcon2 from "../../Assets/socialIcon2.png"
 import SocialIcon3 from "../../Assets/socialIcon3.jpg"
-import { Tooltip, TooltipProvider } from 'react-tooltip';
+import { Tooltip} from 'react-tooltip';
 import "./Footer.css"
 
 const Footer = () => {
