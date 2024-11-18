@@ -1,0 +1,139 @@
+.hero{
+    width: 100%;
+    height: 70vh;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+.heroContainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.heroContainer img{
+    width: 125px;
+    height: 65px;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Urbanist;
+}
+.content h1 span{
+    color: #0E5944;
+}
+.resumeButton{
+    width: 350px;
+    height: 70px;
+    background-color: #B6E0D4;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.resumeButton button{
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #0E5944;
+    font-size: 24px;
+    background: transparent;
+}
+.resumeButton button:hover{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #0E5944;
+    color: white;
+    font-family: "Inria Serif", serif;
+    padding: 15px 10px;
+    transition: all ease-in-out 0.1s;
+}
+
+.resumeButton a{
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #0E5944;
+    font-size: 24px;
+    background: transparent;
+    text-align: center;
+}
+.resumeButton a:hover{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #0E5944;
+    color: white;
+    font-family: "Inria Serif", serif;
+    padding: 15px 10px;
+    transition: all ease-in-out 0.1s;
+}
+
+.heroImg{
+    width: 30%;
+}
+.heroImg img{
+    width: 100%;
+}
+
+
+
+
+
+/* Popup overlay */
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  }
+  
+  /* Popup content */
+  .popup-content {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    height: 97%;
+    width: 75%;
+    max-width: 450px;
+    text-align: center;
+  }
+  
+  /* Close button */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* Resume image styling */
+  .resume-image {
+    max-width: 800px;
+    height: 550px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  

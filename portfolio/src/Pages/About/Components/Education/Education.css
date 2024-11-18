@@ -1,0 +1,74 @@
+
+.education{
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.educationContent{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.dot1{
+    width: 50px ;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: -50px;
+}
+.dot2{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    z-index: -1;
+    left: -35px;
+    top: -30px;
+}
+.eduTitle h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Inria Serif", serif;
+    color: #0E5944;
+}
+.eduContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-direction: column;
+}
+.eduContent .myEducation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.eduContent .myEducation h3{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Crimson Text;
+    color: rgb(32, 31, 31);
+}
+.eduContent .myEducation p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Crimson Text;
+    color: rgba(42, 42, 42, 0.717);
+}
+
+.educationImage{
+    width: 50%;
+}
+.educationImage img{
+    width: 100%;
+}

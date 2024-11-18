@@ -1,0 +1,25 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kaushan+Script&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Kaushan+Script&family=Oswald:wght@200..700&display=swap"); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6, a, li, p, button{
+    font-family: "Oswald", sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+li{
+    list-style: none;
+}
