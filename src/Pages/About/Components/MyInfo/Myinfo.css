@@ -1,0 +1,90 @@
+.aboutInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 80px 100px;
+    border-bottom: 3px solid #09322621;
+}
+
+.info {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.aboutImg-responsive{
+    display: none;
+}
+
+.aboutContent h1 {
+    font-size: 40px;
+    font-family: Urbanist;
+    color: #0E5944;
+}
+
+.aboutContent p {
+    font-size: 18px;
+    font-family: Palatino Linotype;
+    color: rgb(65, 64, 64);
+}
+
+.aboutImg{
+    width: 40%;
+}
+.aboutImg img{
+    width: 100%;
+   /* width: 400px;
+   height: 300px; */
+}
+
+@media(max-width:1000px){
+    .aboutInfo {
+        gap: 30px;
+        padding: 50px;
+    }
+    .info {
+        width: 50%;
+        gap: 40px;
+    }
+    .aboutImg{
+        width: 50%;
+    }
+}
+
+@media(max-width:760px){
+    .aboutInfo {
+        padding: 40px 30px;
+    }
+    .aboutImg-responsive{
+        width: 300px;
+        display: flex;
+    }
+    .aboutImg-responsive img{
+        width: 100%;
+        display: flex;
+    }
+    .aboutImg{
+        display: none;
+    }
+    .info {
+        width: 90%;
+        align-items: center;
+    }
+    .aboutContent {
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        text-align: justify;
+    }
+}

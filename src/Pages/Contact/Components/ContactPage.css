@@ -1,0 +1,96 @@
+
+.ContactPage h1,h2,h3,h4,h5,h6,a,li,p{
+    color: white;
+}
+
+.ContactPage{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 0;
+}
+.contactInfo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #0E5944;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 35px 35px 0 0;
+}
+.contactInfo h2{
+    font-size: 36px;
+    font-family: "Inria Serif", serif;
+    font-weight: 900;
+}
+.contactInfo p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.contactVia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+.contactVia .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactVia .icons h4{
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.contactImg{
+    width: 40%;
+}
+.contactImg img{
+    width: 100%;
+}
+
+@media(max-width:1000px){
+    .ContactPage{
+        padding: 50px 50px 0;
+    }
+    .contactInfo{
+        width: 60%;
+    }
+}
+
+@media(max-width:760px){
+    .ContactPage{
+        padding: 50px 20px 0;
+        justify-content: center;
+    }
+    .contactInfo{
+        width: 100%;
+        padding: 20px;
+        text-align: justify;
+    }
+    .contactInfo h2{
+        font-size: 36px;
+        font-family: "Inria Serif", serif;
+        font-weight: 600;
+    }
+    .contactInfo p{
+        font-size: 14px;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+    .contactImg{
+        display: none;
+    }
+}
+

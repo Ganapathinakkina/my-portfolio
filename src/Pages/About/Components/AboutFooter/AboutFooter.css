@@ -1,0 +1,37 @@
+.AboutFooter{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("../../../../Assets/AboutFooterBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.AboutFooter hr{
+    width: 60%;
+    height: 3px;
+    background-color: #09322642;
+    border: none;
+    outline: none;
+}
+
+@media(max-width:1000px){
+    .AboutFooter{
+        height: 20vh;
+    }
+}
+@media(max-width:760px){
+    .AboutFooter{
+        height: 20vh;
+        gap: 20px;
+    }
+}
+@media(max-width:500px){
+    .AboutFooter{
+        background-position: 0;
+    }
+}

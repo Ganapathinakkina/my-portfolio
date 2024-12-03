@@ -1,0 +1,257 @@
+.hero {
+    width: 100%;
+    height: 65vh;
+    padding: 100px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+
+.helloImg {
+    display: none;
+}
+
+.heroImg-responsive{
+    display: none;
+}
+
+.heroContainer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.heroContainer img {
+    width: 125px;
+    height: 65px;
+}
+
+.content h1 {
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Urbanist;
+}
+
+.content h1 span {
+    color: #0E5944;
+}
+
+.resumeButton {
+    width: 350px;
+    height: 70px;
+    background-color: #B6E0D4;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resumeButton button {
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #0E5944;
+    font-size: 24px;
+    background: transparent;
+}
+
+.resumeButton button:hover {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #0E5944;
+    color: white;
+    font-family: "Inria Serif", serif;
+    padding: 15px 10px;
+    transition: all ease-in-out 0.1s;
+}
+
+.resumeButton a {
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #0E5944;
+    font-size: 24px;
+    background: transparent;
+    text-align: center;
+}
+
+.resumeButton a:hover {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #0E5944;
+    color: white;
+    font-family: "Inria Serif", serif;
+    padding: 15px 10px;
+    transition: all ease-in-out 0.1s;
+}
+
+.heroImg {
+    width: 30%;
+}
+
+.heroImg img {
+    width: 100%;
+}
+
+
+
+
+
+/* Popup overlay */
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+/* Popup content */
+.popup-content {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    height: auto;
+    width: 95%;
+    max-width: 450px;
+    max-height: 100vh;
+    text-align: center;
+    margin: 20px;
+    overflow-y: auto;
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.close:hover {
+    font-size: 24px;
+}
+
+/* Resume image styling */
+.resume-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 0.5px solid gainsboro;
+}
+
+
+@media(max-width:1200px) {
+    .hero {
+        padding: 0px 50px;
+        margin-bottom: 20px;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width:1000px) {
+    .content h1 {
+        font-size: 35px;
+    }
+
+    .heroImg {
+        width: 40%;
+    }
+
+    .resumeButton {
+        width: 320px;
+        height: 70px;
+    }
+
+    .resumeButton button {
+        font-size: 20px;
+    }
+
+    .resumeButton a {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:760px) {
+    .hero {
+        flex-direction: column;
+        gap: 20px;
+        padding: 100px 50px;
+        margin: 50px 0;
+    }
+
+    .helloImg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heroContainer img {
+        display: none;
+    }
+    .heroImg {
+        display: none;
+    }
+
+    .heroImg-responsive{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroImg-responsive img{
+        width: 100%;
+    }
+  
+    .heroContainer{
+        width: 100%;
+    }
+    .content h1 {
+        font-size: 30px;
+    }
+
+  
+    .resumeButton {
+        width: 280px;
+    }
+    .resumeButton button {
+        font-size: 18px;
+    }
+
+    .resumeButton button:hover {
+        font-size: 17px;
+    }
+    .resumeButton a {
+        font-size: 18px;
+    }
+    .resumeButton a:hover {
+
+        font-size: 19px;
+    }
+}
