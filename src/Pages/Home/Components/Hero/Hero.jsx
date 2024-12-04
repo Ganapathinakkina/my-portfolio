@@ -36,7 +36,7 @@ const Hero = () => {
                 <h1>
                     I'm <span>Ganapathi</span>, {' '}
                     <Typed
-                        strings={['a Software Developer']}
+                        strings={['a Software Engineer']}
                         style={{color:"black"}}
                         typeSpeed={90}
                         backSpeed={50}
