@@ -105,6 +105,10 @@
 .heroImg img {
     width: 100%;
 }
+.heroImg img:hover{
+    scale: 1.1;
+    transition: all ease-in-out 0.2s;
+}
 
 
 
@@ -228,6 +232,10 @@
     .heroImg-responsive img{
         width: 100%;
     }
+    .heroImg-responsive img:hover{
+        scale: 1.1;
+        transition: all ease-in-out 0.2s;
+    }
   
     .heroContainer{
         width: 100%;
@@ -253,5 +261,11 @@
     .resumeButton a:hover {
 
         font-size: 19px;
+    }
+}
+@media(max-width:360px){
+    .hero{
+        height: 90vh;
+        margin-top: 80px;
     }
 }

@@ -9,6 +9,12 @@ import { toast } from "react-toastify"
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+import { MdHome } from "react-icons/md";
+import { IoMdContact } from "react-icons/io";
+import { GiSkills } from "react-icons/gi";
+import { GiRotaryPhone } from "react-icons/gi";
+import { MdOutlineFileDownload } from "react-icons/md";
+
 
 const Navbar = () => {
 
@@ -67,10 +73,12 @@ const Navbar = () => {
         <img src={LogoImg} alt="" />
       </div>
       <div className={click ? "menu active" : "menu"}>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/skills">Skills</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/"> <MdHome id="menu-icons"/> Home</Link>
+        <Link to="/about"> <IoMdContact id="menu-icons"/> About</Link>
+        <Link to="/skills"> <GiSkills id="menu-icons"/> Skills</Link>
+        <Link to="/contact"> <GiRotaryPhone id="menu-icons"/> Contact</Link>
+        <a id="downloadCV-resp" onClick={handleDownload}> <MdOutlineFileDownload id="menu-icons"/> Download CV </a>
+        
 
       </div>
       <div className="cvButton">
@@ -81,7 +89,7 @@ const Navbar = () => {
       </div>
       <div className="hamburger" onClick={handleClick}>
         {
-          click ? (<FaTimes style={{ color: "white" }} size={22} />) :
+          click ? (<FaTimes style={{ color: "white" }} size={18} />) :
             (<FaBars style={{ color: "black" }} size={22} />)
         }
       </div>

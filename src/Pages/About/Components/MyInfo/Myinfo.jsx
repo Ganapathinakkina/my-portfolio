@@ -25,8 +25,13 @@ const Myinfo = () => {
                     <div className='aboutImg-responsive'>
                         <img src={AboutImg} alt="" />
                     </div>
-                    <p>Motivated BSc graduate with strong communication, problem-solving, and organizational skills. Eager to start a career as a Process Executive,
-                        bringing proficiency in MS Office, quick adaptability to new systems, and a commitment to accuracy and efficiency in managing tasks and performance metrics.</p>
+                    <p>Motivated ReactJS developer with strong proficiency in HTML, CSS,
+                        JavaScript, ReactJS, Redux, and Bootstrap. Experienced in building
+                        responsive web applications and integrating APIs. Excellent
+                        communication skills and a strong work ethic complement my technical
+                        expertise. As a B.Sc. graduate and fresher, I am eager to contribute to
+                        innovative frontend development projects. Seeking an opportunity to
+                        leverage my skills and grow within a dynamic organization.</p>
                 </div>
                 <div className="resumeButton">
                     <button onClick={openPopup}>View Resume</button>
