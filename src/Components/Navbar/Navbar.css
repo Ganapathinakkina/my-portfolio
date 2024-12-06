@@ -160,8 +160,8 @@
     }
     #downloadCV-resp #menu-icons{
         display: block;
-        /* flex-direction: column; */
         gap: 10px;
+        
     }
     #downloadCV-resp:hover{
         scale: 1;

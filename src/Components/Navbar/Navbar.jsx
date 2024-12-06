@@ -72,12 +72,13 @@ const Navbar = () => {
         <Link to="/"><h1 to="/">Ganapathi</h1></Link>
         <img src={LogoImg} alt="" />
       </div>
+      
       <div className={click ? "menu active" : "menu"}>
-        <Link to="/"> <MdHome id="menu-icons"/> Home</Link>
-        <Link to="/about"> <IoMdContact id="menu-icons"/> About</Link>
-        <Link to="/skills"> <GiSkills id="menu-icons"/> Skills</Link>
-        <Link to="/contact"> <GiRotaryPhone id="menu-icons"/> Contact</Link>
-        <a id="downloadCV-resp" onClick={handleDownload}> <MdOutlineFileDownload id="menu-icons"/> Download CV </a>
+        <Link to="/"> <MdHome id="menu-icons" size={27}/> Home</Link>
+        <Link to="/about"> <IoMdContact id="menu-icons" size={27}/> About</Link>
+        <Link to="/skills"> <GiSkills id="menu-icons" size={27}/> Skills</Link>
+        <Link to="/contact"> <GiRotaryPhone id="menu-icons" size={27}/> Contact</Link>
+        <p id="downloadCV-resp" onClick={handleDownload}> <MdOutlineFileDownload id="menu-icons" size={27}/> Download CV </p>
         
 
       </div>
