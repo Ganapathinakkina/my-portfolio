@@ -1,7 +1,7 @@
 import React from 'react'
 import HelloButton from "../../../../Assets/HelloButton.png"
 import HeroImg from "../../../../Assets/HeroImg.png"
-import Resume from "../../../../Assets/resumeScreenshot.jpg"
+import Resume from "../../../../Assets/resumeScreenshot.png"
 import { ReactTyped as Typed } from 'react-typed';
 import { useState } from 'react'
 
