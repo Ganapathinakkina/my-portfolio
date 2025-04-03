@@ -1,7 +1,7 @@
 import AboutImg from "../../../../Assets/AboutImg.png"
 import { useState } from 'react'
 import "./Myinfo.css"
-import Resume from "../../../../Assets/resumeScreenshot.jpg"
+import Resume from "../../../../Assets/resumeScreenshot.png"
 import { Link } from "react-router-dom"
 
 
